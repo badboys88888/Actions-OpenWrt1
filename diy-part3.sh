@@ -15,8 +15,12 @@
 #sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # 自定义第三方插件
+src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git
+src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+src-git openclash https://github.com/vernesong/OpenClash.git
 git clone https://github.com/chenmozhijin/luci-app-socat.git package/luci-app-socat
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git
+
 #git clone https://github.com/qianlyun123/luci-app-modem.git package/luci-app-modem
 #git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
 #git clone https://github.com/linkease/istore.git package/istore
