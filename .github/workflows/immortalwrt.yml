@@ -27,7 +27,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  FORCE_UNSAFE_CONFIGURE: 1   # ✅ 关键修复项：允许 root 环境编译 tar 等工具
+  FORCE_UNSAFE_CONFIGURE: 1  
 
 jobs:
   build:
@@ -90,7 +90,7 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
-    - name: Clean target/linux cache   # ✅ 新增清理步骤
+    - name: Clean target/linux cache   
       run: |
         cd openwrt
         rm -rf build_dir/target-* tmp/
