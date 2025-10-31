@@ -137,7 +137,6 @@ jobs:
       run: |
         echo "release_tag=$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         cat <<EOF > release.txt
-## Immortalwrt24.10 cmcc_rax3000m
 - 管理地址:192.168.123.200
 - 默认用户:root
 - 默认密码:空
