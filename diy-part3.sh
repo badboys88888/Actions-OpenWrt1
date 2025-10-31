@@ -15,7 +15,6 @@
 #sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # 自定义第三方插件
-src-git argon https://github.com/jerrykuku/luci-theme-argon.git
 src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git
 src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
 src-git openclash https://github.com/vernesong/OpenClash.git
