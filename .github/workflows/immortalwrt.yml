@@ -8,9 +8,7 @@
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
-#
 name: immortalwrt Builder
-
 on:
   workflow_dispatch:
   repository_dispatch:
