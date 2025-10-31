@@ -21,6 +21,6 @@ git clone openclash https://github.com/vernesong/OpenClash.git  package/luci-app
 git clone helloworld https://github.com/fw876/helloworld.git  package/luci-app-socat
 git clone nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main  package/luci-app-socat
 git clone https://github.com/qianlyun123/luci-app-modem.git package/luci-app-modem
-git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
+#git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddns-go
