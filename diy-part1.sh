@@ -24,4 +24,13 @@ echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.
 #git clone https://github.com/neophack/luci-app-ssr-plus.git package/lean/luci-app-ssr-plus
 #git clone https://github.com/chenmozhijin/luci-app-socat.git package/lean/luci-app-socat
 git clone https://github.com/momokind/luci-app-hypermodem.git package/lean/luci-app-hypermodem
+git clone passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git  package/luci-app-socat
+git clone passwall https://github.com/xiaorouji/openwrt-passwall.git  package/luci-app-socat
+git clone openclash https://github.com/vernesong/OpenClash.git  package/luci-app-socat
+git clone helloworld https://github.com/fw876/helloworld.git  package/luci-app-socat
+git clone nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main  package/luci-app-socat
+git clone https://github.com/qianlyun123/luci-app-modem.git package/luci-app-modem
+#git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
+git clone https://github.com/linkease/istore.git package/istore
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddns-go
 
